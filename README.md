@@ -11,3 +11,18 @@ Trier par temps total
 ## Nohup 
 La sortie ne s'affiche pas avec nohup ? 
 <pre>export PYTHONUNBUFFERED=1</pre>
+
+## Conda 
+création env 
+<pre>
+wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+
+bash Anaconda3-2021.11-Linux-x86_64.sh
+
+source .bashrc
+
+conda create -n env python=3.7
+
+conda activate env
+
+</pre>
